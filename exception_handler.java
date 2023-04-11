@@ -6,7 +6,7 @@ public class exception_handler {
                 public static void main(String[] args) {
                         int a=10; b=0; c=0;
                         try {
-                                c=a/b
+                                c=a/b;
                         } catch (ArithematicException 0) {
                                 // TODO: handle exception
                         
