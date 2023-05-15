@@ -52,7 +52,7 @@ class Tsub extends Thread{
 class Tmult extends Thread{
         Thread t;
         String tnum;
-        Tsum(String num){
+        void Tsum(String num){
                 tnum=num;
                 t=new Thread(this,tnum);
                 t.start();
